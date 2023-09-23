@@ -24,7 +24,6 @@ body header {
   height: 15vh;
   position: relative;
   background: pink;
-  overflow: hidden;
 }
 body header .logo {
   position: absolute;

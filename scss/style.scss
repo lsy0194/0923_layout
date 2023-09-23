@@ -3,15 +3,14 @@
 body {
 	width: 100%;
 	height: 100vh;
-	overflow: hidden;
+	overflow: hidden; //화면에 스크롤바가 안생기게함
 	header {
 		width: 100%;
 		height: 15vh;
-		position: relative;
+		position: relative; //요소기준으로 잡음
 		background: pink;
-		overflow: hidden;
 		.logo {
-			position: absolute;
+			position: absolute; //요소 기준으로 배치
 			width: 120px;
 			height: 50px;
 			top: 0;
@@ -20,7 +19,7 @@ body {
 			background: purple;
 		}
 		.menu {
-			position: absolute;
+			position: absolute; //요소 기준으로 배치
 			width: 300px;
 			height: 50px;
 			top: 0;
@@ -30,18 +29,18 @@ body {
 		}
 	}
 	section {
-		position: relative;
+		position: relative; //요소기준으로 잡음
 		width: 100%;
 		height: 75vh;
 		background: lightblue;
 		.main_contant {
-			position: absolute;
+			position: absolute; //요소 기준으로 배치
 			width: 100%;
 			height: 45vh;
 			background: coral;
 		}
 		.inner {
-			position: absolute;
+			position: absolute; //요소 기준으로 배치
 			width: 100%;
 			height: 30vh;
 			margin-top: 45vh;
@@ -54,7 +53,7 @@ body {
 				background: brown;
 			}
 			.sub2_content {
-				position: absolute;
+				position: absolute; //요소 기준으로 배치
 				width: 50%;
 				height: 30vh;
 				top: 0;
@@ -64,7 +63,7 @@ body {
 		}
 	}
 	footer {
-		position: relative;
+		position: relative; //요소기준으로 잡음
 		width: 100%;
 		height: 10vh;
 		background: violet;
@@ -76,7 +75,7 @@ body {
 			}
 		}
 		.footer_logo {
-			position: absolute;
+			position: absolute; //요소 기준으로 배치
 			width: 120px;
 			height: 50px;
 			top: 0;
@@ -85,7 +84,7 @@ body {
 			background: lawngreen;
 		}
 		.footer_menu {
-			position: absolute;
+			position: absolute; //요소 기준으로 배치
 			width: 300px;
 			height: 50px;
 			top: 0;
