@@ -3,6 +3,7 @@
 body {
 	width: 100%;
 	height: 100vh;
+	overflow: hidden;
 	header {
 		width: 100%;
 		height: 15vh;
@@ -63,6 +64,7 @@ body {
 		}
 	}
 	footer {
+		position: relative;
 		width: 100%;
 		height: 10vh;
 		background: violet;
@@ -72,6 +74,24 @@ body {
 			p {
 				color: #fff;
 			}
+		}
+		.footer_logo {
+			position: absolute;
+			width: 120px;
+			height: 50px;
+			top: 0;
+			left: 0;
+			margin: 10px;
+			background: lawngreen;
+		}
+		.footer_menu {
+			position: absolute;
+			width: 300px;
+			height: 50px;
+			top: 0;
+			right: 0;
+			margin: 10px;
+			background: orangered;
 		}
 	}
 }
