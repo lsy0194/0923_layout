@@ -66,5 +66,12 @@ body {
 		width: 100%;
 		height: 10vh;
 		background: violet;
+		text-align: center;
+		line-height: 10vh;
+		.copy {
+			p {
+				color: #fff;
+			}
+		}
 	}
 }
