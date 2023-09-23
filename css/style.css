@@ -44,9 +44,38 @@ body header .menu {
   background: rgb(32, 116, 137);
 }
 body section {
+  position: relative;
   width: 100%;
   height: 75vh;
   background: lightblue;
+}
+body section .main_contant {
+  position: absolute;
+  width: 100%;
+  height: 45vh;
+  background: coral;
+}
+body section .inner {
+  position: absolute;
+  width: 100%;
+  height: 30vh;
+  margin-top: 45vh;
+}
+body section .inner .sub1_content {
+  position: absolute;
+  width: 50%;
+  height: 30vh;
+  top: 0;
+  left: 0;
+  background: brown;
+}
+body section .inner .sub2_content {
+  position: absolute;
+  width: 50%;
+  height: 30vh;
+  top: 0;
+  right: 0;
+  background: magenta;
 }
 body footer {
   width: 100%;
