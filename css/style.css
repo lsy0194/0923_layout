@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+body header {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  background: pink;
+}
+body section {
+  width: 100%;
+  height: 60vh;
+  background: lightblue;
+}
+body footer {
+  width: 100%;
+  height: 10vh;
+  background: violet;
+}
 
 /*# sourceMappingURL=style.css.map */
