@@ -39,6 +39,7 @@ body header .logo p {
   text-align: center;
   font: bold 35px/1.2 "Orbitron";
   line-height: 50px;
+  color: #ffd900;
 }
 body header .menu {
   position: absolute;
@@ -138,7 +139,13 @@ body footer .footer_logo {
   top: 0;
   left: 0;
   margin: 10px;
-  background: lawngreen;
+  background: green;
+}
+body footer .footer_logo p {
+  color: #fff;
+  text-align: center;
+  font: bold 30px/1.2 "Orbitron";
+  line-height: 50px;
 }
 body footer .footer_menu {
   position: absolute;
