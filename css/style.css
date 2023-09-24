@@ -36,12 +36,50 @@ body header .logo {
 }
 body header .menu {
   position: absolute;
-  width: 300px;
-  height: 50px;
+  width: 320px;
+  height: 30px;
   top: 0;
   right: 0;
   margin: 25px;
+  display: flex;
+  justify-content: center;
   background: rgb(32, 116, 137);
+}
+body header .menu .con_menu {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+body header .menu .con_menu .subMenu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: none;
+}
+body header .menu .con_menu .subMenu li {
+  border: 1px solid black;
+  background: rgb(32, 116, 137);
+}
+body header .menu:nth-of-type(1) :hover {
+  background: rgb(113, 207, 231);
+}
+body header .menu:nth-of-type(1) :hover .subMenu {
+  display: block;
+}
+body header .menu:nth-of-type(1) :hover .subMenu li {
+  background: rgb(113, 207, 231);
+}
+body header .menu:nth-of-type(2) :hover {
+  background: rgb(113, 207, 231);
+}
+body header .menu:nth-of-type(3) :hover {
+  background: rgb(113, 207, 231);
+}
+body header .menu:nth-of-type(4) :hover {
+  background: rgb(113, 207, 231);
 }
 body section {
   position: relative;
